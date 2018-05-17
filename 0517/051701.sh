@@ -1,1 +1,3 @@
-#!/bin/cat
+#!/bin/sh
+
+ls /bin/c??
