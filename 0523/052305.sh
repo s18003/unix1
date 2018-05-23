@@ -1,4 +1,4 @@
 #!/bin/sh
 
 
-sudo du -b /etc | sort -n | head -n 5
+sudo find /etc/ -type f | sudo xargs du -b | sort -n | head -n 5

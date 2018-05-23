@@ -1,3 +1,3 @@
 #!/bin/sh
 
-du -b ~/* | sort -n -r | head -n 5
+find ~ -type f | xargs du -b | sort -nr | head -n 5
